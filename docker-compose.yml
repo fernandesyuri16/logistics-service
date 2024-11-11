@@ -12,7 +12,7 @@ services:
       - logistics_network
 
   kibana:
-    image: docker.elastic.co/kibana/kibana:7.10.1
+    image: docker.elastic.co/kibana/kibana:8.15.1
     container_name: kibana
     environment:
       - ELASTICSEARCH_URL=http://elasticsearch:9200
