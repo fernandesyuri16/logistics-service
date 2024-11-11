@@ -1,0 +1,28 @@
+version: '3.5'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.1
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    ports:
+      - "9200:9200"
+    networks:
+      - logistics_network
+
+  logistics-service:
+    build: .
+    command: node src/index.js
+    environment:
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - PORT=3000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - elasticsearch
+    networks:
+      - logistics_network
+networks:
+  logistics_network:
+    driver: bridge

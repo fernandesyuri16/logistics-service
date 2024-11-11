@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.15.1",
+    "@hapi/hapi": "^21.3.12",
+    "dotenv": "^16.4.5",
+    "joi": "^17.13.3"
+  }
+}
