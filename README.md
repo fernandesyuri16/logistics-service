@@ -59,5 +59,11 @@ Agora validando a busca e pesquisa nos pedidos de acordo com o conteudo da descr
 
 ![image](https://github.com/user-attachments/assets/cfee11ea-9a54-45be-936d-2aed2e17591b)
 
+### 6. Visualizando dados:
+Analisando e o monitorando informações armazenadas no Elasticsearch, por meio de gráficos, dashboards interativos e busca rápida para insights em tempo real. Neste caso, visualizando os pedidos criados em gráfico
+
+![image](https://github.com/user-attachments/assets/fa764625-b07f-40a9-b336-c4b12d5c6c22)
+
+
 
 
