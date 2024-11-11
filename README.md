@@ -1,6 +1,6 @@
-# 🚚 Gerenciando logistica com Elasticsearch e Node.js
+# 🚚 Gerenciando logistica com Elasticsearch + Kibana e Node.js
 
-Este projeto fornece um serviço simples de logística construído com **Node.js (Hapi.js)** e **Elasticsearch** para gerenciar e pesquisar pedidos. 
+Este projeto fornece um serviço simples de logística construído com **Node.js (Hapi.js)** e **Elasticsearch + Kibana** para gerenciar e pesquisar pedidos. 
 A aplicação está conteinerizada usando **Docker** e **Docker Compose** para facilitar a configuração e o deploy.
 
 ## Funcionalidades ✨
@@ -14,6 +14,7 @@ A aplicação está conteinerizada usando **Docker** e **Docker Compose** para f
 
 - **Node.js com Hapi.js** para a API de backend.
 - **Elasticsearch** para armazenar e consultar dados de pedidos.
+- **Kibana** para visualizar os dados, gerando gráficos, dashboards e insights
 - **Docker** para containerizar a aplicação e gerenciar as dependências.
   
 ## Configuração e Execução da Aplicação ⚙️
